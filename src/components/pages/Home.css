@@ -1,0 +1,15 @@
+.merch-section{
+    margin-top: 0;
+}
+
+.hero-section{
+    margin-bottom: 0;
+    margin-top: 50px;
+}
+.avatar-section{
+    margin-top: 140px;
+}
+.roadmap{
+    display: flex;
+    justify-content: center;
+}

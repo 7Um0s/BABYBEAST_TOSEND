@@ -1,0 +1,1148 @@
+.hero-section{
+    color: white;
+    background-color: black;
+    width: 100%;
+    min-height: 100vh;
+    text-align: center;
+}
+
+.hero-avatar{
+    width: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    animation: fadeIn;
+    animation-duration: 1s;
+    margin-top: 10px;
+}
+
+.heading {
+    line-height: 2px;
+    font-size: 5em;
+    font-family: 'Anton-Regular';
+    letter-spacing: -6.5px;
+    margin-top: 0;
+    animation: flipInX;
+    animation-duration: 1s;
+}
+
+#sub-title{
+    margin-top: 70px;
+    margin-bottom: 15px;
+    animation: fadeIn;
+    animation-duration: 2s;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+.sub-heading{
+    animation: fadeIn;
+    animation-duration: 3s;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.3em;
+}
+#cc{
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 100;
+    font-size: 1em;
+    animation: fadeIn;
+    font-family: 'Roboto', sans-serif;
+    animation-duration: 4s;
+    opacity: 0.8;
+    margin-bottom: 30px;
+}
+#ccc{
+    width: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1em;
+    font-weight: 100;
+    animation: fadeIn;
+    animation-duration: 4s;
+    opacity: 0.8;
+    font-family: 'Roboto', sans-serif;
+}
+
+.logo-name{
+    width: 150px;
+}
+.track .logo{
+    width: 125px;
+    object-fit: cover;
+    margin-top: -13px;
+    margin-right: 0;
+}
+
+.marquee {
+    position: absolute;
+    bottom: 0%;
+    width: 100vw;
+    max-width: 100%;
+    height: 90px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    margin-top: 80px;
+  }
+  
+  .track {
+      display: flex;
+      align-items: center;
+    position: absolute;
+    white-space: nowrap;
+    will-change: transform;
+    animation: marquee 32s linear infinite;
+  }
+  
+  @keyframes marquee {
+    from { transform: translateX(0); }
+    to { transform: translateX(-50%); }
+  }
+
+  @media screen and (min-width: 2000px){
+    .hero-avatar{
+        width: 680px;
+        margin-top: 0px;
+    }
+
+    .heading{
+        font-size: 5em;
+        letter-spacing: -3px;
+        margin-bottom: -10px;
+    }
+
+    .sub-heading {
+        font-size: 2em;
+    }
+
+    #cc{
+        font-size: 1.5em;
+        width: 70%;
+        margin-bottom: 30px;
+        margin-top: 30px;
+    }
+
+    #ccc{
+        margin-top: 30px;
+        font-size: 1.5em;
+        width: 200px;
+        margin-bottom: 150px;
+    }
+    
+    .marquee{
+        margin-top: -20px;
+        height: 150px;
+    }
+
+    .logo-name{
+        width: 225px;
+    }
+    .track .logo{
+        width: 200px;
+        object-fit: cover;
+    }
+    
+  }
+
+  /* Large Displays */
+  @media screen and (min-width: 1999px) {
+    .hero-avatar{
+        width: 630px;
+        margin-top: 100px;
+    }
+
+    .heading{
+        font-size: 6em;
+        letter-spacing: -3px;
+        margin-bottom: -2px;
+    }
+
+    .sub-heading {
+        font-size: 2em;
+    }
+
+    #cc{
+        font-size: 1.2em;
+        margin-bottom: 30px;
+        margin-top: 20px;
+        width: 50%;
+    }
+
+    #ccc{
+        font-size: 1.2em;
+        width: 170px;
+        margin-bottom: 60px;
+    }
+    
+    .marquee{
+        margin-top: 180px;
+    }
+
+    .logo-name{
+        width: 225px;
+    }
+    .track .logo{
+        width: 200px;
+        object-fit: cover;
+    }
+  }
+
+  @media screen and (max-width: 1600px) {
+    .hero-avatar{
+        width: 350px;
+        margin-top: -30px;
+    }
+
+    .heading{
+        font-size: 3em;
+        letter-spacing: -3px;
+        margin-bottom: -20px;
+    }
+
+    .sub-heading {
+        font-size: 1em;
+    }
+
+    #cc{
+        font-size: 0.8em;
+        margin-bottom: 5px;
+    }
+
+    #ccc{
+        font-size: 0.8em;
+        width: 100px;
+        margin-bottom: 60px;
+    }
+    
+    .marquee{
+        margin-top: -20px;
+    }
+}
+@media screen and (max-width: 5200px) and (min-height: 2880px) {
+    .hero-section{
+        margin-top: 400px;
+    }
+    .hero-avatar{
+        width: 1200px;
+        margin-top: 0px;
+    }
+
+    .heading{
+        font-size: 11em;
+        letter-spacing: -10px;
+        margin-bottom: 140px;
+    }
+
+    .sub-heading {
+        font-size: 2.8em;
+    }
+
+    #cc{
+        font-size: 2.2em;
+        margin-bottom: 70px;
+        width: 34%;
+    }
+
+    #ccc{
+        font-size: 2.2em;
+        width: 4%;
+        margin-bottom: 60px;
+        margin-top: 20px;
+    }
+
+    .track .logo{
+        width: 320px;
+        margin-top: -25px;
+        object-fit: contain;
+    }
+
+    .logo-name{
+        width: 330px;
+        object-fit: contain;
+    }
+    
+    .marquee{
+        height: 210px;
+    }
+}
+
+@media screen and (max-width: 4100px) and (min-height: 2304px) {
+    .hero-section{
+        margin-top: 300px;
+    }
+    .hero-avatar{
+        width: 950px;
+        margin-top: 0px;
+    }
+
+    .heading{
+        font-size: 9em;
+        letter-spacing: -10px;
+        margin-bottom: 140px;
+    }
+
+    .sub-heading {
+        font-size: 2.2em;
+    }
+
+    #cc{
+        font-size: 1.8em;
+        margin-bottom: 20px;
+        width: 35%;
+    }
+
+    #ccc{
+        font-size: 1.8em;
+        width: 4%;
+        margin-bottom: 60px;
+        margin-top: 20px;
+    }
+
+    .track .logo{
+        width: 290px;
+        margin-top: -25px;
+        object-fit: contain;
+    }
+
+    .logo-name{
+        width: 295px;
+        object-fit: contain;
+    }
+    
+    .marquee{
+        height: 180px;
+    }
+}
+
+@media screen and (max-width: 3900px) and (min-height: 2160px) {
+    .hero-section{
+        margin-top: 300px;
+    }
+    .hero-avatar{
+        width: 900px;
+        margin-top: 0px;
+    }
+
+    .heading{
+        font-size: 8em;
+        letter-spacing: -8px;
+        margin-bottom: 100px;
+    }
+
+    .sub-heading {
+        font-size: 1.9em;
+    }
+
+    #cc{
+        font-size: 1.6em;
+        margin-bottom: 20px;
+        width: 30%;
+    }
+
+    #ccc{
+        font-size: 1.6em;
+        width: 4%;
+        margin-bottom: 60px;
+        margin-top: 20px;
+    }
+
+    .track .logo{
+        width: 240px;
+        margin-top: -20px;
+        object-fit: contain;
+    }
+
+    .logo-name{
+        width: 250px;
+        object-fit: contain;
+    }
+    
+    .marquee{
+        margin-top: 300px;
+    }
+}
+@media screen and (max-width: 2570px) and (min-height: 1504px) {
+    .footer .marquee{
+        margin-top: 200px;
+    }
+    .marquee .track .logo{
+        width: 180px;
+        margin-top: -20px;
+        object-fit: contain;
+    }
+
+    .track .logo-name{
+        width: 200px;
+        object-fit: contain;
+    }
+}
+
+/* @media screen and (min-width: 2400px) and (min-height: 1080px) and (orientation: landscape) {
+    .marquee{
+        position: relative;
+    }
+} */
+@media screen and (max-width: 2600px) and (min-height: 1440px) {
+    .hero-avatar{
+        margin-top: 100px;
+    }
+    .marquee{
+        height: 125px;
+    }
+
+    .heading{
+        font-size: 6em;
+        letter-spacing: -5px;
+        margin-bottom: 5px;
+    }
+
+    .sub-heading {
+        font-size: 1.45em;
+    }
+
+    #cc{
+        font-size: 1.1em;
+        margin-bottom: 30px;
+        margin-top: 20px;
+        width: 33%;
+    }
+
+    #ccc{
+        font-size: 1.1em;
+        width: 4%;
+        margin-bottom: 60px;
+    }
+    
+    .track .logo{
+        width: 170px;
+        margin-top: -15px;
+        object-fit: contain;
+    }
+
+    .logo-name{
+        width: 200px;
+        object-fit: contain;
+    }
+}
+
+@media screen and (max-width: 2410px) and (min-height: 1080px) {
+    .hero-avatar{
+        width: 20vw;
+        margin-top: 0;
+    }
+
+    .heading{
+        font-size: 5em;
+        letter-spacing: -5px;
+    }
+
+    .sub-heading{
+        font-size: 1.18em;
+    }
+
+    #cc, #ccc{
+        font-size: 0.9em;
+    }
+
+    #cc{
+        width: 30%;
+    }
+
+    #ccc{
+        width: 4%;
+        margin-top: 0;
+    }
+
+    .track .logo{
+        width: 140px;
+        margin-top: -15px;
+        object-fit: contain;
+    }
+
+    .logo-name{
+        width: 150px;
+        object-fit: contain;
+    }
+
+    .marquee{
+        height: 95px;
+    }
+}
+@media screen and (max-width: 1990px) and (min-height: 1080px) {
+    #cc{
+        width: 34%;
+    }
+}
+@media screen and (max-width: 1990px) and (min-height: 1200px) {
+    .hero-section{
+        margin-top: 140px;
+    }
+    .marquee{
+        margin-top: 160px;
+    }
+
+    .heading{
+        font-size: 5em;
+        letter-spacing: -4px;
+        margin-bottom: -0px;
+    }
+
+    .track .logo{
+        width: 140px;
+        margin-top: -10px;
+        object-fit: contain;
+    }
+
+    .logo-name{
+        width: 150px;
+        object-fit: contain;
+    }
+
+    #cc{
+        width: 34%;
+        font-size: 0.9em;
+    }
+}
+
+@media screen and (max-width: 1700px) and (min-height: 1050px) {
+    .hero-section{
+        margin-top: 90px;
+    }
+    .hero-avatar{
+        width: 400px;
+        margin-top: 0px;
+    }
+
+    .heading{
+        font-size: 4em;
+        letter-spacing: -3px;
+        margin-bottom: -10px;
+    }
+
+    .sub-heading {
+        font-size: 1em;
+    }
+
+    #cc{
+        font-size: 0.8em;
+        margin-bottom: 20px;
+        width: 38%;
+    }
+
+    #ccc{
+        font-size: 0.8em;
+        width: 4%;
+        margin-bottom: 60px;
+        margin-top: 20px;
+    }
+
+    .track .logo{
+        width: 120px;
+        margin-top: -10px;
+        object-fit: contain;
+    }
+
+    .logo-name{
+        width: 130px;
+        object-fit: contain;
+    }
+    
+    .marquee{
+        height: 80px;
+    }
+}
+
+@media screen and (max-width: 1500px) and (min-height: 900px) {
+    .hero-avatar{
+        width: 350px;
+        margin-top: -1px;
+    }
+
+    .heading{
+        font-size: 3.5em;
+        letter-spacing: -3px;
+        margin-bottom: -20px;
+    }
+
+    .sub-heading {
+        font-size: 0.9em;
+    }
+
+    #cc{
+        font-size: 0.75em;
+        margin-bottom: 20px;
+        width: 40%;
+    }
+
+    #ccc{
+        font-size: 0.75em;
+        width: 4%;
+        margin-bottom: 40px;
+    }
+
+    .track .logo{
+        width: 120px;
+        margin-top: -10px;
+        object-fit: contain;
+    }
+
+    .logo-name{
+        width: 130px;
+        object-fit: contain;
+    }
+    
+    .marquee{
+        height: 80px;
+    }
+}
+
+@media screen and (max-width: 1400px) and (min-height: 768px) {
+    .hero-avatar{
+        width: 300px;
+        margin-top: -10px;
+    }
+
+    .heading{
+        font-size: 3.2em;
+        letter-spacing: -3px;
+        margin-bottom: -20px;
+    }
+
+    .sub-heading {
+        font-size: 0.9em;
+    }
+
+    .hero-section #cc{
+        font-size: 0.65em;
+        margin-bottom: 20px;
+        width: 35%;
+    }
+
+    #ccc{
+        font-size: 0.65em;
+        width: 80px;
+        margin-bottom: 60px;
+    }
+
+    .track .logo{
+        width: 110px;
+        margin-top: -10px;
+        object-fit: contain;
+    }
+
+    .logo-name{
+        width: 120px;
+        object-fit: contain;
+    }
+    
+    .marquee{
+        height: 75px;
+    }
+}
+
+@media screen and (max-width: 1410px) and (min-height: 700px) {
+    .hero-avatar{
+        width: 280px;
+    }
+    
+    .sub-heading{
+        font-size: 0.8em;
+    }
+
+    #cc{
+        font-size: 0.6em;
+        width: 35%;
+    }
+
+    #ccc{
+        font-size: 0.6em;
+        width: 4%;
+    }
+    .track .logo{
+        width: 110px;
+        margin-top: -10px;
+        object-fit: contain;
+    }
+
+    .logo-name{
+        width: 120px;
+        object-fit: contain;
+    }
+
+    .marquee{
+        height: 75px;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    .hero-avatar{
+        width: 300px;
+        margin-top: -10px;
+    }
+
+    .heading{
+        font-size: 3.5em;
+        letter-spacing: -3px;
+        margin-bottom: -20px;
+    }
+
+    .sub-heading {
+        font-size: 0.85em;
+    }
+
+    .hero-section #cc{
+        font-size: 0.7em;
+        margin-bottom: 20px;
+        width: 40%;
+    }
+
+    #ccc{
+        font-size: 0.7em;
+        width: 5%;
+    }
+
+    .track .logo{
+        width: 120px;
+        margin-top: -10px;
+        object-fit: contain;
+    }
+
+    .logo-name{
+        width: 130px;
+        object-fit: contain;
+    }
+    
+    .marquee{
+        height: 80px;
+    }
+}
+
+
+  @media screen and (max-width: 1200px) {
+    .hero-avatar{
+        width: 220px;
+        margin-top: -60px;
+    }
+
+    .heading{
+        font-size: 3em;
+        letter-spacing: -3px;
+        margin-bottom: -20px;
+    }
+
+    .sub-heading {
+        font-size: 1em;
+    }
+
+    .hero-section #cc{
+        font-size: 0.8em;
+        margin-bottom: 5px;
+    }
+
+    #ccc{
+        font-size: 0.8em;
+        width: 100px;
+        margin-bottom: 60px;
+    }
+
+    .track .logo{
+        width: 120px;
+        margin-top: -10px;
+        object-fit: contain;
+    }
+
+    .logo-name{
+        width: 130px;
+        object-fit: contain;
+    }
+    
+    .marquee{
+        height: 80px;
+    }
+}
+
+@media screen and (max-width: 1030px) and (min-height: 1366px) {
+    .hero-section .hero-avatar{
+        width: 40vw;
+        margin-top: 200px;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .heading{
+        font-size: 2.7em;
+        letter-spacing: -3px;
+        margin-bottom: -30px;
+    }
+
+    .hero-avatar{
+        width: 230px;
+    }
+
+    .sub-heading {
+        font-size: 0.65em;
+    }
+
+    .hero-section #cc{
+        font-size: 0.55em;
+        margin-bottom: 15px;
+        width: 40%;
+    }
+
+    #ccc{
+        font-size: 0.55em;
+        width: 50px;
+    }
+
+    .track .logo{
+        width: 90px;
+        margin-top: -8px;
+        object-fit: contain;
+    }
+
+    .logo-name{
+        width: 100px;
+        object-fit: contain;
+    }
+    
+    .marquee{
+        height: 60px;
+    }
+}
+
+@media screen and (max-width: 1100px) and (min-height: 700px){
+    .hero-avatar{
+        width: 300px;
+        margin-top: -40px;
+    }
+
+    .heading{
+        font-size: 2.7em;
+        letter-spacing: -3px;
+        margin-bottom: -20px;
+    }
+
+    .sub-heading {
+        font-size: 0.65em;
+    }
+
+    .hero-section #cc{
+        font-size: 0.55em;
+        margin-bottom: 20px;
+        width: 40%;
+    }
+
+    #ccc{
+        font-size: 0.55em;
+        width: 50px;
+        margin-bottom: 60px;
+    }
+
+    .track .logo{
+        width: 110px;
+        margin-top: -10px;
+        object-fit: contain;
+    }
+
+    .logo-name{
+        width: 120px;
+        object-fit: contain;
+    }
+    
+    .marquee{
+        height: 75px;
+    }
+
+}
+
+@media screen and (max-width: 1200px) and (min-height: 1500px) {
+    .hero-avatar{
+        width: 70vw;
+        margin-top: 10vh;
+    }
+
+    .hero-section .heading{
+        font-size: 6em;
+        letter-spacing: -9px;
+        margin-bottom: 100px;
+    }
+
+    .hero-section .sub-heading{
+        font-size: 1.5em;
+    }
+
+    .hero-section #cc{
+        font-size: 1em;
+        width: 90%;
+    }
+
+    .hero-section #ccc{
+        font-size: 1em;
+        width: 12%;
+    }
+
+    .hero-section .track .logo{
+        width: 180px;
+        object-fit: contain;
+        margin-top: -15px;
+    }
+
+    .hero-section .logo-name{
+        width: 210px;
+        object-fit: contain;
+    }
+
+    .hero-section .marquee{
+        height: 130px;
+    }
+
+}
+
+@media screen and (max-width: 995px) and (orientation: landscape){
+    .marquee{
+        position: relative;
+    }
+
+    .hero-section{
+        margin-bottom: 100px;
+    }
+}
+
+@media screen and (max-width: 1000px){
+    .hero-section .hero-avatar{
+        width: 55vw;
+    }
+
+    .hero-section .heading{
+        font-size: 4em;
+        letter-spacing: -4px;
+    }
+    .hero-section #cc{
+        width: 80%;
+        font-size: 0.75em;
+    }
+
+    .hero-section #ccc{
+        width: 12%;
+        font-size: 0.75em;
+    }
+
+    .hero-section .sub-heading{
+        font-size: 1.2em;
+    }
+
+    .hero-section .track .logo{
+        width: 120px;
+        object-fit: contain;
+    }
+
+    .hero-section .logo-name{
+        width: 150px;
+        object-fit: contain;
+    }
+
+    .hero-section .marquee{
+        height: 90px;
+    }
+
+}
+
+@media screen and (max-width: 600px){
+    .hero-section #cc{
+        width: 90%;
+        font-size: 0.5em;
+    }
+
+    .hero-section #sub-title{
+        margin-top: 0;
+    }
+    .hero-section .hero-avatar{
+        width: 280px;
+        margin-top: 45px;
+    }   
+
+    .hero-section .heading{
+        font-size: 3em;
+        letter-spacing: -4px;
+        margin-bottom: 40px;
+    }
+
+    .hero-section .sub-heading{
+        font-size: 0.8em;
+        margin-top: 0;
+    }
+
+    .hero-section #ccc{
+        width: 70px;
+        font-size: 0.5em;
+        margin-bottom: -30px;
+    }
+
+    .hero-section .track .logo{
+        width: 110px;
+        object-fit: contain;
+        margin-bottom: -1px;
+    }
+
+    .hero-section .logo-name{
+        width: 130px;
+        object-fit: contain;
+    }
+
+    .footer{
+        margin-bottom: 0;
+    }
+
+    .hero-section{
+        margin-top: -55px;
+    }
+
+    .hero-section .marquee{
+        height: 80px;
+    }
+}  
+
+
+@media screen and (max-width: 400px) and (min-height: 844px) {
+    .hero-avatar{
+        margin-top: 100px;
+    }
+
+    .marquee{
+        margin-top: 150px;
+    }
+}
+
+@media screen and (max-width: 991px) and (min-height: 568px) {
+    .hero-avatar{
+        width: 200px;
+    }
+
+    .heading{
+        font-size: 3em;
+    }
+
+    .sub-heading{
+        font-size: 0.9em;
+    }
+
+    #cc{
+        font-size: 0.7em;
+    }
+
+    #ccc{
+        font-size: 0.7em;
+        width: 10%;
+    }
+
+    .track .logo{
+        width: 90px;
+    }
+
+    .logo-name{
+        width: 100px;
+    }
+
+    .marquee{
+        height: 60px;
+    }
+}
+
+@media screen and (max-width: 360px) and (min-height: 640px){
+    .hero-section > .hero-avatar{
+        width: 240px;
+    }
+
+    .hero-section .heading{
+        font-size: 2.5em;
+        letter-spacing: -2.5px;
+        margin-bottom: 40px;
+    }
+
+    .hero-section.sub-heading{
+        font-size: 0.7em;
+    }
+
+    .hero-section #cc, .hero-section #ccc{
+        font-size: 0.5em;
+    }
+
+    .hero-section .track .logo{
+        width: 90px;
+    }
+
+    .hero-section .logo-name{
+        width: 100px;
+    }
+
+    .hero-section .marquee{
+        height: 65px;
+    }
+}
+
+@media screen and (max-width: 330px) and (min-height: 480px) {
+    .hero-section .hero-avatar{
+        width: 180px;
+    }
+    .hero-section .heading{
+        font-size: 2em;
+    }
+    .hero-section .sub-heading{
+        font-size: 0.5em;
+    }
+
+    .hero-section #ccc{
+        font-size: 0.35em;
+        width: 50px;
+    }
+
+    .hero-section #cc{
+        font-size: 0.35em;
+    }
+
+    .track #logo-change{
+        width: 60px;
+        margin-top: -10px;
+    }
+
+    .hero-section .logo-name{
+        width: 70px;
+    }
+
+    .hero-section .marquee{
+        height: 50px;
+    }
+
+}
+
+@media screen and (max-width: 320px) {
+    #cc{
+        width: 80%;
+        font-size: 0.55em;
+    }
+    .hero-avatar{
+        width: 220px;
+        margin-top: 30px;
+    }
+    .heading{
+       font-size: 2.2em;
+       letter-spacing: -3px;
+       margin-bottom: 20px;
+    }
+
+    .logo-name{
+        width: 100px;
+        object-fit: contain;
+    }
+
+    #logo-change{
+        width: 90px;
+        object-fit: contain;
+        margin-bottom: -4px;
+    }
+    .hero-section .marquee{
+        margin-top: 65px;
+        height: 45px;
+    }
+}
